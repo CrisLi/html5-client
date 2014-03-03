@@ -1,0 +1,16 @@
+
+# Ignore the default SQLite database.
+/db/*.*
+
+# Ignore all logfiles and tempfiles.
+/logs
+/tmp
+*.class
+*.pyc
+*.pyo
+*.log
+
+/target
+
+.settings
+.classpath
