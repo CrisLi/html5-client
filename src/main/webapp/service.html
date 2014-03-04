@@ -13,15 +13,30 @@
   <div class="container">
 
     <!-- row 1: navigation -->
-    <nav class="row">
-      <ul class="nav nav-pills nav-justified">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li class="active"><a href="#">Services</a></li>
-        <li><a href="#">Photo Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="row">
+      <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" data-role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <!--  -->
+            <span class="icon-bar"></span>
+            <!--  -->
+            <span class="icon-bar"></span>
+            <!--  -->
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li class="active"><a href="#">Services</a></li>
+              <li><a href="#">Photo Gallery</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
     <!-- row 2: header -->
     <header class="row">
@@ -132,7 +147,8 @@
               As always, if you have questions about your pet’s dental or health care, please <a href="#">contact Wisdom Pet Medicine</a> for advice.
             </p>
           </div>
-        </div><!-- end nested row 3a -->
+        </div>
+        <!-- end nested row 3a -->
       </aside>
 
       <aside class="col-lg-3 col-sm-4 col-lg-pull-9 col-sm-pull-8">

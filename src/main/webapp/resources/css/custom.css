@@ -1,4 +1,8 @@
 /* this is my custom CSS */
+body {
+  padding: 70px;
+}
+
 footer {
   padding: 2em 0;
   margin: 3em 0;
